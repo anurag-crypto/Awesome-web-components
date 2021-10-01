@@ -1,0 +1,17 @@
+.danger_button
+{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:5px;
+    border-radius: 4px;
+    background: rgb(216, 1, 1);
+    color: whitesmoke;
+    border: none;
+    outline: none;
+}
+.danger_button:hover{
+    cursor: pointer;
+    transform: scaleX(1.1);
+    border-radius: 4px;
+}
