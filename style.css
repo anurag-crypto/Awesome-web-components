@@ -15,3 +15,20 @@
     transform: scaleX(1.1);
     border-radius: 4px;
 }
+.success_button
+{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:5px;
+    border-radius: 4px;
+    background: #04AA6D;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+}
+.success_button:hover{
+    cursor: pointer;
+    transform: scaleX(1.1);
+    border-radius: 4px;
+}
