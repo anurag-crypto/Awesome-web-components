@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quick Start Template</title>
+	  <!-- AniCollection.css library -->
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Simple sentence-->
+    <header data-anijs="if: click, do: flipInY animated">
+        header (Click here)
+    </header>
+    <div id="main" data-anijs="if: mouseover, do: pulse animated">
+        Main (MouseOver)
+    </div>
+    <footer data-anijs="if:click, do: tada animated, to: #main">
+        footer (Click here)
+    </footer>
+  <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+
+  <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+  </body>
+</html>
